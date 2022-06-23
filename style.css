@@ -1,0 +1,36 @@
+.header {
+Padding: 30px;
+font-family: fantasy;
+background-color: bisque;
+color: black;
+
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+#wow {
+    position: relative;
+    
+}
+
+#wow ul li {
+    list-style: none;
+    margin-right:50px;
+    position: absolute;
+    top:0;
+    right:0;
+    font-family: fantasy;
+    background-color: bisque;
+    color: black;
+}
+body {
+    background-color: bisque;
+
+}
+
+
