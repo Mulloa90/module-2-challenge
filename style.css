@@ -1,3 +1,8 @@
+*{
+    background-color: rgba(255,0,0,0.4);
+   
+}
+
 .header {
 Padding: 30px;
 font-family: fantasy;
@@ -7,10 +12,10 @@ color: black;
 }
 
 .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    margin: 0 auto;
+    width: 30%;
+    height:auto;
+    border-style:solid;
 
 }
 #wow {
@@ -30,7 +35,18 @@ color: black;
 }
 body {
     background-color: bisque;
-
+    display:flex;
+    align-items: center;
+    flex-direction: column;
 }
+ h2 {
+     font-family: fantasy;
+     color: black;
 
 
+ }
+
+.about {
+    font-family: fantasy;
+    color: black;
+}
