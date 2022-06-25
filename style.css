@@ -1,47 +1,71 @@
-*{
-    background-color: rgba(255,0,0,0.4);
+
+h1 {
+Padding: 0px;
+font-family: fantasy;
+color: black;
+font-size: 35px;
+text-decoration: underline;
+background-color: burlywood;
+}
+
+.nav {
+    background-color: bisque;
+    overflow: hidden;
+}
+.nav ul {
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    height: 42px;
+    background-color: burlywood;
+}
+
+.nav li {
+    display: inline-block;
+}
+
+.nav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 12px;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: fantasy;
    
 }
 
-.header {
-Padding: 30px;
-font-family: fantasy;
-background-color: bisque;
-color: black;
-
+.nav a:hover {
+    background-color: burlywood;
+    color: white;
 }
 
-.center {
-    margin: 0 auto;
+.nav a:active {
+    background-color: white;
+    color: bisque;
+}
+
+
+
+
+
+.image {
+    margin: 0;
     width: 30%;
     height:auto;
     border-style:solid;
 
 }
-#wow {
-    position: relative;
-    
-}
 
-#wow ul li {
-    list-style: none;
-    margin-right:50px;
-    position: absolute;
-    top:0;
-    right:0;
-    font-family: fantasy;
-    background-color: bisque;
-    color: black;
-}
 body {
     background-color: bisque;
-    display:flex;
-    align-items: center;
-    flex-direction: column;
+
 }
  h2 {
      font-family: fantasy;
      color: black;
+     text-decoration: underline;
+     background-color: burlywood;
 
 
  }
@@ -49,4 +73,8 @@ body {
 .about {
     font-family: fantasy;
     color: black;
+}
+
+p {
+    background-color: burlywood;
 }
