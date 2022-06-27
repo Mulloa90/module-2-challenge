@@ -1,23 +1,19 @@
 
 h1 {
-Padding: 0px;
-font-family: fantasy;
-color: black;
+font-family:optima;
 font-size: 35px;
 text-decoration: underline;
-background-color: burlywood;
 }
 
 .nav {
-    background-color: bisque;
     overflow: hidden;
 }
 .nav ul {
     padding: 0;
     margin: 0;
     text-align: right;
-    height: 42px;
-    background-color: burlywood;
+    height: 40px;
+    
 }
 
 .nav li {
@@ -31,12 +27,12 @@ background-color: burlywood;
     padding: 14px 12px;
     text-decoration: none;
     font-size: 22px;
-    font-family: fantasy;
+    font-family: optima;
    
 }
 
 .nav a:hover {
-    background-color: burlywood;
+    background-color: silver;
     color: white;
 }
 
@@ -45,36 +41,118 @@ background-color: burlywood;
     color: bisque;
 }
 
-
-
-
-
 .image {
     margin: 0;
-    width: 30%;
+    width: 24%;
     height:auto;
-    border-style:solid;
 
 }
 
+.image:hover{
+backdrop-filter: blur(10px);
+filter: blur(4px);
+}
+
+.image2 {
+    margin: 0;
+width:initial;
+height:inherit;
+}
+
+.image2:hover{
+    backdrop-filter: blur(10px);
+    filter: blur(4px);
+    }
+
+.image3 {
+    margin: 0;
+    width: 100%;
+    height: 500px;
+    display: inline;
+}
+    
+.image3:hover{
+    backdrop-filter: blur(10px);
+    filter: blur(4px);
+}
+
+.image4 {
+    margin: 0;
+    width: 40%;
+    height: 450px;
+    display: inline;
+}
+    
+.image4:hover{
+    backdrop-filter: blur(10px);
+    filter: blur(4px);
+}
+.image5 {
+    margin: 0;
+    width: 40%;
+    height: 450px;
+    display: inline;
+    
+}
+    
+.image5:hover{
+    backdrop-filter: blur(10px);
+    filter: blur(4px);
+}
 body {
-    background-color: bisque;
-
+    background-color: white;
+    background-image: url("background.webp");
+    background-size: cover;
 }
- h2 {
-     font-family: fantasy;
+
+h2 {
+     font-family: optima;
      color: black;
      text-decoration: underline;
-     background-color: burlywood;
+     }
 
-
- }
-
-.about {
-    font-family: fantasy;
+section{
     color: black;
+    padding: 20px;
+    display: flex;
 }
 
+.aboutme {
+    display:table-row;
+    height: 100px;
+    width: 20px;
+    padding: 50px;
+    margin: 50px;
+}
 p {
-    background-color: burlywood;
+    font-size: 27px;
+}
+.Projects {
+    display:table-row;
+    height: 100px;
+    width: 20px;
+    padding: 50px;
+    margin: 50px;
+    }
+
+.Projects ul li {
+list-style: none;
+
+}
+
+.contact ul {
+    padding: 0;
+    margin: 0;
+    text-align: right;
+    height: 40px;
+}
+
+
+.contact li {
+    list-style: none;
+    text-align: right;
+    display: inline-table;
+    padding: 20px;
+    font-family: optima;
+    text-decoration: underline;
 }
