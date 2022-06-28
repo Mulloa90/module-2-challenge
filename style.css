@@ -154,7 +154,19 @@ justify-content:space-evenly;
     font-family: optima;
     text-decoration: underline;
 }
-
-@media all and (min-width: 480px) {
-    
+/* cited from w3schools.com */
+body {
+    background-color: lightgrey;
+  }
+  
+  @media screen and (min-width: 400px) {
+    body {
+      background-color: lightgrey;
+    }
+  }
+  
+  @media screen and (min-width: 800px) {
+    body {
+      background-color: lightgrey;
+    }
   }
