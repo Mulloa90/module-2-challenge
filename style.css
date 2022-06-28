@@ -66,7 +66,7 @@ height:inherit;
 
 .image3 {
     margin: 0;
-    width: 100%;
+    width: 104%;
     height: 500px;
     display: inline;
 }
@@ -80,7 +80,7 @@ height:inherit;
     margin: 0;
     width: 40%;
     height: 450px;
-    display: inline;
+    justify-content: left; 
 }
     
 .image4:hover{
@@ -91,8 +91,7 @@ height:inherit;
     margin: 0;
     width: 40%;
     height: 450px;
-    display: inline;
-    
+    justify-content: right;
 }
     
 .image5:hover{
@@ -131,13 +130,12 @@ p {
     display:table-row;
     height: 100px;
     width: 20px;
-    padding: 50px;
-    margin: 50px;
     }
 
 .Projects ul li {
 list-style: none;
-
+display:inline-block;
+justify-content:space-evenly;
 }
 
 .contact ul {
@@ -156,3 +154,7 @@ list-style: none;
     font-family: optima;
     text-decoration: underline;
 }
+
+@media all and (min-width: 480px) {
+    
+  }
