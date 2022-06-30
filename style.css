@@ -40,14 +40,14 @@ text-decoration: underline;
     background-color: white;
     color: bisque;
 }
-
+/* */
 .image {
     margin: 0;
     width: 24%;
     height:auto;
 
 }
-
+/* chose this to make the image blur when hover */
 .image:hover{
 backdrop-filter: blur(10px);
 filter: blur(4px);
@@ -154,7 +154,7 @@ justify-content:space-evenly;
     font-family: optima;
     text-decoration: underline;
 }
-/* cited from w3schools.com */
+/* cited from w3schools.com  in order to make the code responsive to different screen sizes*/ 
 body {
     background-color: lightgrey;
   }
